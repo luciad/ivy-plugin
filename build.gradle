@@ -6,7 +6,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'org.jenkins-ci.tools:gradle-jpi-plugin:0.16.0'
+        classpath 'org.jenkins-ci.tools:gradle-jpi-plugin:0.22.0'
     }
 }
 
@@ -17,7 +17,7 @@ group = "org.jenkins-ci.plugins"
 description = "A description of your plugin"
 
 jenkinsPlugin {
-    coreVersion = '1.642.3'
+    coreVersion = '1.620'
     displayName = 'Ivy Plugin'
     url = 'https://wiki.jenkins-ci.org/display/JENKINS/Ivy+Plugin'
     gitHubUrl = 'https://github.com/jenkinsci/ivy-plugin'
@@ -49,7 +49,7 @@ jenkinsPlugin {
     }
 }
 
-sourceCompatibility = '1.5'
+sourceCompatibility = '1.7'
 
 compileJava {
     options.encoding = 'UTF-8'
